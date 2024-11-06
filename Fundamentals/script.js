@@ -133,4 +133,53 @@ console.log(n);
 
 /* TRUTHY AND FALSY VALUES
 
+console.log(Boolean(0));
+console.log(Boolean(undefined));
+console.log(Boolean(""));
+console.log(Boolean(null));
+console.log(Boolean(NaN));
+
+console.log(Boolean(1));
+console.log(Boolean("Jonas"));
+
+const money = 1;
+if (money) {
+  console.log("Don't spend it all!");
+} else {
+  console.log(":(");
+}
+
+let height;
+
+if (height) {
+  console.log("Ok!");
+} else {
+  console.log("Not ok... Height is undefined");
+}
+
+*/
+
+/* EQUALITY OPERATORS
+
+const age = 18;
+if (age === 18) console.log("Everything is ok!");
+
+console.log(18 === 18);
+console.log(18 === "18"); // STRICT
+
+console.log(18 == 18);
+console.log(18 == "18"); // LOOSE
+
+const favourite = Number(prompt("What's your favourite number?"));
+
+if (favourite === 36) {
+  console.log("Oh, cool!");
+} else if (favourite !== 36) {
+  console.log("Why not 23?");
+} else if (favourite === 7) {
+  console.log("77777777777");
+} else {
+  console.log("Number is not 36 and 7.");
+}
+
 */
