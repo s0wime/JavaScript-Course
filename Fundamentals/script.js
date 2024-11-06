@@ -92,3 +92,16 @@ const jonasNew = `I'm ${firstName}, a ${year - birthYear} years old ${job}.`;
 console.log(jonasNew);
 
 */
+
+/* WORK WITH IF / ELSE STATEMENTS
+
+const age = 18;
+const isOldEnough = age >= 18;
+
+if (isOldEnough) {
+  console.log(`Your age (${age}) is enough!`);
+} else {
+  console.log(`You're too young. Wait another ${18 - age} years!`);
+}
+
+*/
