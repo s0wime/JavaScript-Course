@@ -1,8 +1,10 @@
-let firstName = "Jonas";
+// let firstName = "Jonas";
 
-console.log(firstName);
+// console.log(firstName);
 
 // HOW TO USE COMMENTS
+
+/* WORK WITH DATA TYPES
 
 let booleanValue = true;
 console.log(booleanValue);
@@ -22,3 +24,29 @@ year = 2121;
 console.log(typeof year);
 
 console.log(typeof null);
+
+*/
+
+/* WORK WITH LET, CONST, VAR
+
+let age = 20;
+age = 21;
+console.log(age);
+
+// DOESN'T WORK
+const birthYear = 2000;
+birthYear = 2001;
+const job;
+
+
+// VAR
+
+var job = "programmer";
+job = "teacher";
+console.log(job);
+
+*/
+
+/* WORK WITH OPERATORS
+
+*/
