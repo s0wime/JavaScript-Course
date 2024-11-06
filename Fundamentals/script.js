@@ -183,3 +183,23 @@ if (favourite === 36) {
 }
 
 */
+
+/* WORK WITH SWITCH STATEMENTS
+
+const day = "Monday";
+
+switch (day) {
+  case "Monday":
+    console.log("Yees!!");
+    break;
+  case "Friday":
+    console.log("Ok ok ok");
+    break;
+  case "Wednesday":
+  case "Thursday":
+    console.log("Both");
+  default:
+    console.log("Not a valid day!");
+}
+
+*/
