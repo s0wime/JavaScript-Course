@@ -38,7 +38,6 @@ const birthYear = 2000;
 birthYear = 2001;
 const job;
 
-
 // VAR
 
 var job = "programmer";
@@ -103,5 +102,35 @@ if (isOldEnough) {
 } else {
   console.log(`You're too young. Wait another ${18 - age} years!`);
 }
+
+*/
+
+/* WORK WITH TYPE CONVERSION AND COERCION
+
+// TYPE CONVERSION
+
+const inputYear = "2000";
+console.log(inputYear + 18);
+console.log(Number(inputYear) + 18);
+console.log(Number(inputYear), inputYear);
+
+console.log(Number("aaaaa"));
+
+console.log(String(2000));
+
+// TYPE COERCION
+
+console.log("I'm " + 23 + " years old.");
+console.log("23" - "10" - 3);
+console.log("23" + "10" + 3);
+console.log("20" ** "2");
+
+let n = "1" + 1;
+n = n - 1;
+console.log(n);
+
+*/
+
+/* TRUTHY AND FALSY VALUES
 
 */
