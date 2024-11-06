@@ -76,3 +76,19 @@ const isFullAge = ageJonas >= 18;
 console.log(isFullAge);
 
 */
+
+/* WORK WITH STRINGS
+
+const firstName = "Jonas";
+const job = "teacher";
+const birthYear = 2000;
+const year = 2043;
+
+const jonas =
+"I'm " + firstName + ", a " + (year - birthYear) + " years old " + job + ".";
+console.log(jonas);
+
+const jonasNew = `I'm ${firstName}, a ${year - birthYear} years old ${job}.`;
+console.log(jonasNew);
+
+*/
