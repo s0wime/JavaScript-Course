@@ -54,3 +54,25 @@ console.log(yearsUntilRetirement(1997, "Jonas"));
 console.log(yearsUntilRetirement(1994, "Bob"));
 
 */
+
+/* WORK WITH ARRAYS
+
+const friend1 = "Michael";
+const friend2 = "Steven";
+const friend3 = "Peter";
+
+const friends = ["Michael", "Steven", "Peter"];
+const years = new Array(1991, 2000, 2021, 2047);
+
+console.log(friends[0]);
+console.log(friends.length);
+
+friends[2] = "Jonas";
+console.log(friends);
+
+// friends = ["Bob", "Alice"];
+
+const person = ["First", "Last", 2047 - 2002, "Teacher", friends];
+console.log(person);
+
+*/
