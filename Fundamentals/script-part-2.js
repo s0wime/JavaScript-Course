@@ -178,3 +178,47 @@ console.log(obj3.calcAge());
 console.log(obj3.age);
 
 */
+
+/* WORK WITH FOR LOOP
+
+for (let i = 0; i < 10; i++) {
+  console.log("Smth repeats 10 times :)");
+}
+
+const randomArray = ["Hello", "World", 2000, "!", "+", "array"];
+
+for (let i = 0; i < randomArray.length; i++) {
+  console.log(randomArray[i]);
+}
+
+for (let i = 0; i < randomArray.length; i++) {
+  if (typeof randomArray[i] !== "string") {
+    console.log("Skipping this iteration...");
+    continue;
+  }
+
+  console.log(randomArray[i]);
+}
+
+for (let i = 0; i < randomArray.length; i++) {
+  if (typeof randomArray[i] !== "number") {
+    console.log("Breaking for loop...");
+    break;
+  }
+
+  console.log(randomArray[i]);
+}
+
+const testArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+for (let i = testArray.length - 1; i >= 0; i--) {
+  console.log(testArray[i]);
+}
+
+for (let i = 0; i < 3; i++) {
+  console.log("Parent for iteration: " + (i + 1));
+  for (let j = 0; j < 5; j++) {
+    console.log("Child for iteration: " + (j + 1));
+  }
+}
+
+*/
