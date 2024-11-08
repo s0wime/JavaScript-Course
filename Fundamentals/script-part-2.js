@@ -131,3 +131,50 @@ jonas["email"] = "email@email.email";
 console.log(jonas);
 
 */
+
+/* WORK WITH OBJECT METHODS
+
+const obj1 = {
+  firstName: "Name",
+  lastName: "Last",
+  birthYear: 2002,
+  job: "Teacher",
+  hasDriverLicense: true,
+  calcAge: function (birthYear) {
+    return 2047 - birthYear;
+  },
+};
+
+console.log(obj1.calcAge(2002));
+console.log(obj1["calcAge"](2002));
+
+const obj2 = {
+  firstName: "Name",
+  lastName: "Last",
+  birthYear: 2002,
+  job: "Teacher",
+  hasDriverLicense: true,
+  calcAge: function () {
+    return 2047 - this.birthYear;
+  },
+};
+
+console.log(obj2.calcAge());
+console.log(obj2["calcAge"]());
+
+const obj3 = {
+  firstName: "Name",
+  lastName: "Last",
+  birthYear: 2002,
+  job: "Teacher",
+  hasDriverLicense: true,
+  calcAge: function () {
+    this.age = 2047 - this.birthYear;
+    return this.age;
+  },
+};
+
+console.log(obj3.calcAge());
+console.log(obj3.age);
+
+*/
