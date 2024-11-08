@@ -103,3 +103,31 @@ console.log(friends.includes("20"));
 console.log(friends.includes(20));
 
 */
+
+/* WORK WITH OBJECTS
+
+const jonas = {
+  firstName: "Jonas",
+  lastName: "Lastname",
+  age: 2047 - 2002,
+  job: "Teacher",
+  friends: ["Steven", "John"],
+};
+
+console.log(jonas);
+
+console.log(jonas.lastName);
+console.log(jonas["lastName"]);
+
+const interestedIn = prompt(
+  "What do you want to know about Jonas? Choose between first name, last name, age, job and friends."
+);
+jonas[interestedIn] === true
+  ? console.log(jonas[interestedIn])
+  : console.log("There is no such property.");
+
+jonas.location = "France";
+jonas["email"] = "email@email.email";
+console.log(jonas);
+
+*/
