@@ -222,3 +222,21 @@ for (let i = 0; i < 3; i++) {
 }
 
 */
+
+/* WORK WITH WHILE LOOP
+
+const whileArray = [1, 2, 3, 4, 5];
+
+while (whileArray.length > 0) {
+  console.log("whilearray length: " + whileArray.length);
+  whileArray.pop();
+}
+
+let dice = Math.trunc(Math.random() * 6) + 1;
+
+while (dice !== 6) {
+  console.log("Dice value: " + dice);
+  dice = Math.trunc(Math.random() * 6) + 1;
+}
+
+*/
